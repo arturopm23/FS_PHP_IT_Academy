@@ -1,0 +1,1 @@
+Número: 4Quadrat: 16 Cub:64Factorial :24

@@ -1,0 +1,145 @@
+/*valores por defecto del margen y el paddin (aunque todavia no se especifica el color de cada uno)*/
+*{
+	margin: 10px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+/*clase que abarca todo el contenido de la página y lo dispone en forma de columna*/
+.father{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+/*cabecera de la pagina que incluye el logo,nav y social. En este primer apartado establecemos el color del margen a negro*/
+
+.header{
+	background:#000;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+/*establecemos el color del padding a #EFBC9B y alineamos el grupo menu al centro.
+ Además como queremos que los elementos se dispongan de manera horizontal dejamos el flex-flow en row.*/
+	.menu{
+		background: #EFBC9B;
+		display: flex;
+		flex-flow: row nowrap;
+		height: 60px;
+		align-items: center;
+	}
+
+		.logo{
+			background: #FBF3D5;
+			flex: 1 1 auto;
+			height: auto;
+			align-items: center;
+		}
+
+		/* como queremos que navegacion ocupe más espacios hacemos que sea 5 veces más grande que los otros 2
+		apartados en el flex*/
+		.nav{
+			background: #FBF3D5;
+			flex: 5 1 auto;
+			height: auto;
+			align-items: center;
+		}
+		.social{
+			background: #FBF3D5;
+			flex: 1 1 auto;
+			height: auto;
+			align-items: center;
+		}
+
+	/* cambiamos el color del padding del banner a D6DAC8 y el del contenido a 9CAFAA*/	
+	.banner{
+		background: #D6DAC8;
+	}
+		h1{
+			background: #9CAFAA;
+		}
+
+/*hacemos cambios parecidos en el resto del contenido*/	
+.section{
+background: #000;
+display: flex;
+}
+	.articles{
+		background: #D6DAC8;
+		flex: 2 1 auto;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+		.article{
+			background: #9CAFAA;
+			flex: 1 1 40%;
+		}
+
+		.navigation{
+			background: #FBF3D5;
+			flex: 1 1 100%;
+		}
+
+	.aside{
+		background: #D6DAC8;
+		flex: 1 1 auto;
+		flex-flow: row wrap;
+	}
+
+		.ad{
+			background: #9CAFAA;
+		}
+
+.footer{
+	background: #000;
+	display: flex;
+	justify-content: center;
+}
+	.foot{
+		background: #D6DAC8;
+		width: 100%;
+	}
+
+/*ajustamos la pagina para cuando el ancho sea menor a 800 pixeles los elementos del menu se muestren en 
+formato columna y el aside y los articulos tambien*/
+@media all and (max-width: 800px){
+	.section{
+		flex-direction: column;
+	}
+
+	.menu{
+		flex-direction: column;
+		height: auto;
+		width: auto;
+		flex: 2 1 auto;
+		flex-flow: row wrap;
+	}
+	.logo{
+		display: flex;
+		flex: 1 1 100%;
+	}
+	.nav{
+		display: flex;
+		flex: 1 1 100%;
+	}
+	.social{
+		display: flex;
+		flex: 1 1 100%;
+	}
+
+	.aside{
+		display: flex;
+		justify-content: center;
+	}
+
+}	
+/*ajustamos la pagina para cuando el ancho sea menor a 600 pixeles la publicidad se muestre en columna dentro del aside*/
+@media all and (max-width: 600px){
+	.articles{
+	flex-direction: column;
+	}
+	.ad{
+		flex-direction: column nowrap;
+		flex: 1 1 100%;
+	}
+}

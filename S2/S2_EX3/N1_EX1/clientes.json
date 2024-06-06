@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "665ef92451267250ad5571f8"
+  },
+  "nombre": "artur",
+  "direccion": {
+    "calle": "Plaza Cataluña",
+    "numero": 13,
+    "piso": "Ático",
+    "puerta": 4,
+    "ciudad": "Barcelona",
+    "cp": "08032"
+  },
+  "telefono": "666666666",
+  "correo": "artur@email.com",
+  "registro": {
+    "$date": "2024-09-23T00:00:00.000Z"
+  },
+  "referido_id": "client_001",
+  "last_shoppings": [
+    {
+      "proveedor_id": "665ef5c451267250ad5571e8",
+      "marca": "Rayban",
+      "montura": "flotante",
+      "color_montura": "rojo",
+      "color_vidrio_L": "azul",
+      "color_vidrio_R": "amarillo",
+      "graduacion_vidrio_L": 2.3,
+      "graduacion_vidrio_R": 2,
+      "precio": 127
+    },
+    {
+      "proveedor_id": "665ef5c451267250ad5571e8",
+      "marca": "Oakley",
+      "montura": "completa",
+      "color_montura": "negro",
+      "color_vidrio_L": "verde",
+      "color_vidrio_R": "verde",
+      "graduacion_vidrio_L": 1.5,
+      "graduacion_vidrio_R": 1.5,
+      "precio": 150
+    },
+    {
+      "proveedor_id": "665ef5c451267250ad5571e8",
+      "marca": "Gucci",
+      "montura": "media",
+      "color_montura": "dorado",
+      "color_vidrio_L": "gris",
+      "color_vidrio_R": "gris",
+      "graduacion_vidrio_L": 1.8,
+      "graduacion_vidrio_R": 2.1,
+      "precio": 200
+    },
+    {
+      "proveedor_id": "665ef5c451267250ad5571e8",
+      "marca": "Prada",
+      "montura": "flotante",
+      "color_montura": "plata",
+      "color_vidrio_L": "marrón",
+      "color_vidrio_R": "marrón",
+      "graduacion_vidrio_L": 2,
+      "graduacion_vidrio_R": 2.2,
+      "precio": 175
+    }
+  ]
+}]
