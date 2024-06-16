@@ -139,6 +139,48 @@ CREATE TABLE IF NOT EXISTS `comandas` (
     ON UPDATE CASCADE
 ) ENGINE = InnoDB;
 
+-- Inserciones para la tabla `clientes`
+INSERT INTO `clientes` (`clientes_nombre`, `clientes_apellido`, `clientes_direccion`, `clientes_cp`, `clientes_localidad`, `clientes_provincia`, `clientes_telefono`) VALUES
+('Juan', 'Pérez', 'Calle Falsa 123', 28001, 'Madrid', 'Madrid', 912345678),
+('Ana', 'García', 'Avenida Siempreviva 456', 28002, 'Madrid', 'Madrid', 912345679),
+('Luis', 'Martínez', 'Plaza Mayor 789', 28003, 'Madrid', 'Madrid', 912345680);
+
+-- Inserciones para la tabla `categorias`
+INSERT INTO `categorias` (`categorias_nombre`) VALUES
+('Pizzas'),
+('Bebidas'),
+('Postres');
+
+-- Inserciones para la tabla `productos`
+INSERT INTO `productos` (`productos_imagen`, `productos_nombre`, `productos_descripcion`, `productos_precio`, `categorias_categorias_id`) VALUES
+(NULL, 'Pizza Margarita', 'Pizza con tomate, mozzarella y albahaca', 8.50, 1),
+(NULL, 'Coca Cola', 'Refresco de cola', 1.50, 2),
+(NULL, 'Tarta de queso', 'Tarta de queso con base de galleta', 4.00, 3);
+
+-- Inserciones para la tabla `tiendas`
+INSERT INTO `tiendas` (`tiendas_direccion`, `tiendas_cp`, `tiendas_localidad`, `tiendas_provincia`) VALUES
+('Calle Pizzeria 1', 28001, 'Madrid', 'Madrid'),
+('Calle Pizzeria 2', 28002, 'Madrid', 'Madrid');
+
+-- Inserciones para la tabla `puesto`
+INSERT INTO `puesto` (`puesto_nombre`) VALUES
+('Cocinero'),
+('Camarero'),
+('Gerente');
+
+-- Inserciones para la tabla `empleados`
+INSERT INTO `empleados` (`empleados_nombre`, `empleados_apellido`, `empleados_NIF`, `empleados_telefono`, `tiendas_tiendas_id`, `puesto_puesto_id`) VALUES
+('Carlos', 'López', '12345678A', 912345681, 1, 1),
+('Marta', 'González', '23456789B', 912345682, 1, 2),
+('Luis', 'Sánchez', '34567890C', 912345683, 2, 3);
+
+-- Inserciones para la tabla `comandas`
+INSERT INTO `comandas` (`comandas_fechaComanda`, `comandas_envio`, `comandas_itemsTotales`, `comandas_precioTotal`, `comandas_fechaEntrega`, `clientes_clientes_id`, `comandas_direccion`, `productos_productos_id`, `tiendas_tiendas_id`, `empleados_empleados_id`)
+VALUES
+('2024-06-10 12:00:00', 'llevar', 2, 13.50, '2024-06-10 13:00:00', 1, 'Calle Falsa 123', 1, 1, 1),
+('2024-06-10 13:30:00', 'recoger', 1, 4.00, '2024-06-10 14:00:00', 2, 'Avenida Siempreviva 456', 2, 2, 2),
+('2024-06-10 14:00:00', 'llevar', 1, 1.50, '2024-06-10 14:30:00', 3, 'Plaza Mayor 789', 1, 3, 3);
+
 -- -----------------------------------------------------
 -- Restaurar configuraciones anteriores
 -- -----------------------------------------------------
