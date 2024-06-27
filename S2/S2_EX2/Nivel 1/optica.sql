@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS `optica`.`clientes` (
   `direccion` VARCHAR(200) NOT NULL,
   `ciudad` VARCHAR(50) NOT NULL,
   `estado` VARCHAR(50) NOT NULL,
-  `codigo_postal` CHAR(5) NOT NULL, 
+  `codigo_postal` CHAR(5) NOT NULL,
   `telefono` CHAR(10) NOT NULL,
   `correo` VARCHAR(100) NOT NULL,
   `fecha_registro` DATETIME NOT NULL,
@@ -78,8 +78,8 @@ COLLATE = utf8mb4_0900_ai_ci;
 CREATE TABLE IF NOT EXISTS `optica`.`gafas` (
   `gafas_id` INT NOT NULL AUTO_INCREMENT,
   `marca_id` INT NOT NULL,
-  `graduacion_izquierda` VARCHAR(50) NOT NULL,
-  `graduacion_derecha` VARCHAR(50) NOT NULL,
+  `graduacion_izquierda` DECIMAL(5,2) NOT NULL,
+  `graduacion_derecha` DECIMAL(5,2) NOT NULL, 
   `montura` VARCHAR(50) NOT NULL,
   `color_montura` VARCHAR(50) NOT NULL,
   `color_vidrio_izquierdo` VARCHAR(50) NOT NULL,
@@ -163,8 +163,8 @@ INSERT INTO `marca` (`nombre`, `proveedor_id`) VALUES
 
 -- Inserciones para la tabla `gafas`
 INSERT INTO `gafas` (`marca_id`, `graduacion_izquierda`, `graduacion_derecha`, `montura`, `color_montura`, `color_vidrio_izquierdo`, `color_vidrio_derecho`, `precio`) VALUES
-(1, '+1.00', '+1.00', 'Montura 1', 'Negro', 'Azul', 'Azul', 100.00),
-(2, '-2.50', '-2.50', 'Montura 2', 'Rojo', 'Verde', 'Verde', 120.00);
+(1, 1.00, 1.00, 'Montura 1', 'Negro', 'Azul', 'Azul', 100.00),
+(2, -2.50, -2.50, 'Montura 2', 'Rojo', 'Verde', 'Verde', 120.00);
 
 -- Inserciones para la tabla `staff`
 INSERT INTO `staff` (`nombre`, `puesto`) VALUES
