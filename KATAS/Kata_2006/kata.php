@@ -1,5 +1,5 @@
 <?php
-$expresion1 = "()()(3 + 4)) * 2";
+$expresion1 = "(()()(3 + 4)) * 2";
 $expresion2 = "(5 + 3) * (3 - 1)";
 $expresion3 = "(5 + 3 * (3 - 1)";
 
