@@ -20,6 +20,7 @@
   "last_shoppings": [
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
+      "proveedor_nombre": "RayBan",
       "marca": "Rayban",
       "montura": "flotante",
       "color_montura": "rojo",
@@ -32,6 +33,7 @@
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
+      "proveedor_nombre": "RayBan",
       "marca": "Oakley",
       "montura": "completa",
       "color_montura": "negro",
@@ -44,6 +46,7 @@
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
+      "proveedor_nombre": "RayBan",
       "marca": "Gucci",
       "montura": "media",
       "color_montura": "dorado",
@@ -56,6 +59,7 @@
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
+      "proveedor_nombre": "RayBan",
       "marca": "Prada",
       "montura": "flotante",
       "color_montura": "plata",
