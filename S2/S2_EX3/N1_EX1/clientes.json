@@ -27,7 +27,8 @@
       "color_vidrio_R": "amarillo",
       "graduacion_vidrio_L": 2.3,
       "graduacion_vidrio_R": 2,
-      "precio": 127
+      "precio": 127,
+      "atendido_por": "Raúl"
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
@@ -38,7 +39,8 @@
       "color_vidrio_R": "verde",
       "graduacion_vidrio_L": 1.5,
       "graduacion_vidrio_R": 1.5,
-      "precio": 150
+      "precio": 150,
+      "atendido_por": "Raúl"
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
@@ -49,7 +51,8 @@
       "color_vidrio_R": "gris",
       "graduacion_vidrio_L": 1.8,
       "graduacion_vidrio_R": 2.1,
-      "precio": 200
+      "precio": 200,
+      "atendido_por": "Raúl"
     },
     {
       "proveedor_id": "665ef5c451267250ad5571e8",
@@ -60,7 +63,8 @@
       "color_vidrio_R": "marrón",
       "graduacion_vidrio_L": 2,
       "graduacion_vidrio_R": 2.2,
-      "precio": 175
+      "precio": 175,
+      "atendido_por": "Raúl"
     }
   ]
 }]
