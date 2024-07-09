@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "668d87a868330911dda2959d"
+  },
+  "nombre": "Netflix España",
+  "creacion": "2024-07-09T12:00:00.000Z",
+  "usuario_dueño": {
+    "_id": {
+      "$oid": "668d7db068330911dda29591"
+    },
+    "nombre": "Netflix"
+  }
+}]

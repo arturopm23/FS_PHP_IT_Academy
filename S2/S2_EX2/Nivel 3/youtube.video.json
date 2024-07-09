@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "668d7eea68330911dda29597"
+  },
+  "titulo": "Trailer de la temporada 9932 de Élite",
+  "descripcion": "Se estrena el 26 de julio",
+  "tamaño": "560 mB",
+  "nombre_archivo": "Trailer.mp4",
+  "duracion": "3 min",
+  "thumbnail": "data:image/jpeg;base64",
+  "reproducciones": 25000,
+  "likes": 1000,
+  "dislikes": 1500,
+  "estado": "público",
+  "etiquetas": [
+    "Netflix",
+    "Drama",
+    "Adolescentes"
+  ],
+  "publicacion": "2024-07-09T12:00:00.000Z",
+  "usuario_creador": {
+    "_id": {
+      "oid": "668d7db068330911dda29591"
+    },
+    "nombre": "Netflix España"
+  },
+  "usuarios_likes": [
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29591"
+      },
+      "momento": "2024-07-09T12:00:00.000Z",
+      "nombre": "Netflix España"
+    },
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29592"
+      },
+      "momento": "2024-07-09T12:00:00.000Z",
+      "nombre": "Arturo"
+    }
+  ],
+  "usuarios_dislikes": [
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29593"
+      },
+      "nombre": "Otro ejemplo"
+    },
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29594"
+      },
+      "nombre": "Apa"
+    }
+  ],
+  "comentarios": [
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29591"
+      },
+      "nombre": "Netflix España",
+      "publicacion": "2024-07-09T12:00:00.000Z",
+      "comentario": "Brutal la temporada"
+    },
+    {
+      "_id": {
+        "oid": "668d7db068330911dda29592"
+      },
+      "nombre": "Arturo",
+      "publicacion": "2024-07-09T12:00:00.000Z",
+      "comentario": "Debería haber acabado en la 3"
+    }
+  ]
+}]

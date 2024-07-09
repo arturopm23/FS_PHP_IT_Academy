@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "668d888068330911dda295a5"
+  },
+  "usuario_dueño": {
+    "_id": {
+      "$oid": "668d7db068330911dda29591"
+    },
+    "nombre": "Netflix"
+  },
+  "videos": [
+    {
+      "_id": {
+        "$oid": "668d8a1a68330911dda29598"
+      },
+      "titulo": "Avance de la serie La Casa de Papel: Temporada 6",
+      "descripcion": "Estreno el 1 de agosto",
+      "tamaño": "700 mB",
+      "nombre_archivo": "LaCasaDePapel_S6.mp4",
+      "duracion": "4 min",
+      "thumbnail": "data:image/jpeg;base64",
+      "reproducciones": 50000,
+      "likes": 3000,
+      "dislikes": 2000,
+      "estado": "público",
+      "etiquetas": [
+        "Netflix",
+        "Acción",
+        "Suspenso"
+      ],
+      "publicacion": "2024-07-10T12:00:00.000Z",
+      "usuario_creador": {
+        "_id": {
+          "oid": "668d8a1a68330911dda29599"
+        },
+        "nombre": "Netflix España"
+      },
+      "usuarios_likes": [
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda29599"
+          },
+          "momento": "2024-07-10T12:00:00.000Z",
+          "nombre": "Netflix España"
+        },
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda2959a"
+          },
+          "momento": "2024-07-10T12:00:00.000Z",
+          "nombre": "Lucía"
+        }
+      ],
+      "usuarios_dislikes": [
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda2959b"
+          },
+          "nombre": "Otro ejemplo"
+        },
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda2959c"
+          },
+          "nombre": "Carlos"
+        }
+      ],
+      "comentarios": [
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda29599"
+          },
+          "nombre": "Netflix España",
+          "publicacion": "2024-07-10T12:00:00.000Z",
+          "comentario": "¡Imperdible!"
+        },
+        {
+          "_id": {
+            "oid": "668d8a1a68330911dda2959a"
+          },
+          "nombre": "Lucía",
+          "publicacion": "2024-07-10T12:00:00.000Z",
+          "comentario": "Qué emoción, no puedo esperar."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "668d8b2b68330911dda2959d"
+      },
+      "titulo": "Documental sobre la Historia de la FIFA",
+      "descripcion": "Disponible el 15 de julio",
+      "tamaño": "1.2 gB",
+      "nombre_archivo": "Historia_FIFA.mp4",
+      "duracion": "1 hr 30 min",
+      "thumbnail": "data:image/jpeg;base64",
+      "reproducciones": 15000,
+      "likes": 2000,
+      "dislikes": 500,
+      "estado": "público",
+      "etiquetas": [
+        "Netflix",
+        "Documental",
+        "Deporte"
+      ],
+      "publicacion": "2024-07-11T12:00:00.000Z",
+      "usuario_creador": {
+        "_id": {
+          "oid": "668d8b2b68330911dda2959e"
+        },
+        "nombre": "Netflix Documentales"
+      },
+      "usuarios_likes": [
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda2959e"
+          },
+          "momento": "2024-07-11T12:00:00.000Z",
+          "nombre": "Netflix Documentales"
+        },
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda2959f"
+          },
+          "momento": "2024-07-11T12:00:00.000Z",
+          "nombre": "Pedro"
+        }
+      ],
+      "usuarios_dislikes": [
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda295a0"
+          },
+          "nombre": "Otro ejemplo"
+        },
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda295a1"
+          },
+          "nombre": "Ana"
+        }
+      ],
+      "comentarios": [
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda2959e"
+          },
+          "nombre": "Netflix Documentales",
+          "publicacion": "2024-07-11T12:00:00.000Z",
+          "comentario": "Un recorrido fascinante por la historia del fútbol."
+        },
+        {
+          "_id": {
+            "oid": "668d8b2b68330911dda2959f"
+          },
+          "nombre": "Pedro",
+          "publicacion": "2024-07-11T12:00:00.000Z",
+          "comentario": "Muy interesante, lo recomiendo."
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "668d8c3c68330911dda295a2"
+      },
+      "titulo": "Trailer de la película Bird Box 2",
+      "descripcion": "Se estrena el 20 de julio",
+      "tamaño": "650 mB",
+      "nombre_archivo": "BirdBox2_Trailer.mp4",
+      "duracion": "3 min 30 sec",
+      "thumbnail": "data:image/jpeg;base64",
+      "reproducciones": 30000,
+      "likes": 5000,
+      "dislikes": 1000,
+      "estado": "público",
+      "etiquetas": [
+        "Netflix",
+        "Suspenso",
+        "Película"
+      ],
+      "publicacion": "2024-07-12T12:00:00.000Z",
+      "usuario_creador": {
+        "_id": {
+          "oid": "668d8c3c68330911dda295a3"
+        },
+        "nombre": "Netflix USA"
+      },
+      "usuarios_likes": [
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a3"
+          },
+          "momento": "2024-07-12T12:00:00.000Z",
+          "nombre": "Netflix USA"
+        },
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a4"
+          },
+          "momento": "2024-07-12T12:00:00.000Z",
+          "nombre": "Juan"
+        }
+      ],
+      "usuarios_dislikes": [
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a5"
+          },
+          "nombre": "Otro ejemplo"
+        },
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a6"
+          },
+          "nombre": "María"
+        }
+      ],
+      "comentarios": [
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a3"
+          },
+          "nombre": "Netflix USA",
+          "publicacion": "2024-07-12T12:00:00.000Z",
+          "comentario": "No te la puedes perder."
+        },
+        {
+          "_id": {
+            "oid": "668d8c3c68330911dda295a4"
+          },
+          "nombre": "Juan",
+          "publicacion": "2024-07-12T12:00:00.000Z",
+          "comentario": "Me encantó la primera parte, espero que esta sea igual de buena."
+        }
+      ]
+    }
+  ]
+}]
