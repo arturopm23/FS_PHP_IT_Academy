@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "668d222583b3fd76aff708b0"
+  },
+  "street": "Super True Street",
+  "number": "41a",
+  "contact_number": 666666666,
+  "zip_code": "08000",
+  "staff": [
+    {
+      "id": 9,
+      "name": "Jason",
+      "last_name": "Scott",
+      "nif": "88888888C",
+      "contact_number": "666666666",
+      "rol": "cook"
+    },
+    {
+      "id": 10,
+      "name": "Sofia",
+      "last_name": "Scott",
+      "nif": "88888888D",
+      "contact_number": "666666666",
+      "rol": "rider"
+    }
+  ]
+}]

@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "668d206483b3fd76aff708a8"
+  },
+  "name": "Kevin BBQ",
+  "type": "hamburguer",
+  "description": "The Classic",
+  "PVP": 4.9,
+  "image": "data:image/jpeg;base64"
+}]

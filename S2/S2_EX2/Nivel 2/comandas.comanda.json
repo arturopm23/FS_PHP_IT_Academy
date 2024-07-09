@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "668d15e683b3fd76aff7089f"
+  },
+  "client": {
+    "_id": 1234,
+    "name": "Person, True"
+  },
+  "order_date": "2024-07-09T12:00:00",
+  "type": "delivery",
+  "delivery_info": {
+    "street": "Right Street",
+    "number": "42b",
+    "floor": "3 1",
+    "contact_number": 62819321
+  },
+  "items": [
+    {
+      "_id": 1,
+      "name": "Pizza Margarita",
+      "quantity": 1,
+      "PVP": 8,
+      "type": "Pizza"
+    },
+    {
+      "_id": 2,
+      "name": "Pizza BBQ",
+      "quantity": 2,
+      "PVP": 24,
+      "type": "Pizza"
+    }
+  ],
+  "total": 56,
+  "pay_status": "paid",
+  "delivery_status": "Delivered",
+  "nota": "We don't have elevator!",
+  "delivery_date": "2024-07-09T18:00:00",
+  "rider_id": 10,
+  "rider_name": "Sofia Scott"
+},
+{
+  "_id": {
+    "$oid": "668d1e4583b3fd76aff708a0"
+  },
+  "client": {
+    "_id": 1234,
+    "name": "Person, True"
+  },
+  "order_date": "2024-07-09T12:00:00",
+  "type": "pick-up",
+  "items": [
+    {
+      "_id": 1,
+      "name": "Pizza Margarita",
+      "quantity": 1,
+      "PVP": 8,
+      "type": "Pizza"
+    },
+    {
+      "_id": 2,
+      "name": "Pizza BBQ",
+      "quantity": 2,
+      "PVP": 24,
+      "type": "Pizza"
+    }
+  ],
+  "total": 56,
+  "pay_status": "paid",
+  "delivery_status": "Delivered"
+}]
