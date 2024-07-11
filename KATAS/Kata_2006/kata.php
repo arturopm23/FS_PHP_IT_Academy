@@ -3,28 +3,23 @@ $expresion1 = "(()()(3 + 4)) * 2";
 $expresion2 = "(5 + 3) * (3 - 1)";
 $expresion3 = "(5 + 3 * (3 - 1)";
 
- function comprobarParentesis(string $expresion) : bool {
-    $respuesta = true;
+function comprobarParentesis(string $expresion) : bool {
     $abiertos = 0;
-    $cerrados = 0;
-    $partes = str_split($expresion);
-    for($i=0; $i < sizeof($partes); $i++){
-    if ($partes[$i] == "("){
-        $abiertos++;
-    }
-    else if($partes[$i] == ")"){
-        $cerrados++;
+
+    foreach (str_split($expresion) as $caracter) {
+        if ($caracter === "(") {
+            $abiertos++;
+        } else if ($caracter === ")") {
+            $abiertos--;
+            if ($abiertos < 0) {
+                return false; 
+            }
         }
-    if ($cerrados > $abiertos){
-        $respuesta = false;
-    }     
     }
-    if ($abiertos != $cerrados){
-        $respuesta = false;
-    }
-return $respuesta;
+    return $abiertos === 0;
 }
-echo (comprobarParentesis($expresion1) ? "correcto" : "incorrecto") . "<br>" ;
-echo (comprobarParentesis($expresion2) ? "correcto" : "incorrecto") . "<br>" ;
-echo (comprobarParentesis($expresion3) ? "correcto" : "incorrecto") . "<br>" ;
+
+echo (comprobarParentesis($expresion1) ? "correcto" : "incorrecto") . "<br>";
+echo (comprobarParentesis($expresion2) ? "correcto" : "incorrecto") . "<br>";
+echo (comprobarParentesis($expresion3) ? "correcto" : "incorrecto") . "<br>";
 ?>
